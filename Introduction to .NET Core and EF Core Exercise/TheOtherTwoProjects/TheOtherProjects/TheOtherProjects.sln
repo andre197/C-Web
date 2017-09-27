@@ -5,13 +5,25 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocialNetworkProject", "SocialNetworkProject", "{551C9FF1-AA96-43E7-A438-017F63FA8110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_Network.Client", "Social_Network.Client\Social_Network.Client.csproj", "{ED78910C-607B-498B-9B5F-8A6A05054D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social_Network.Client", "Social_Network.Client\Social_Network.Client.csproj", "{ED78910C-607B-498B-9B5F-8A6A05054D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_Network.Data", "Social_Network.Data\Social_Network.Data.csproj", "{D6274894-B057-4F63-96DF-3D2A22DD2F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social_Network.Data", "Social_Network.Data\Social_Network.Data.csproj", "{D6274894-B057-4F63-96DF-3D2A22DD2F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Social_Network.Models", "Social_Network.Models\Social_Network.Models.csproj", "{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Social_Network.Models", "Social_Network.Models\Social_Network.Models.csproj", "{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{1BE71E75-9C6C-402B-B8B7-7EEF6A0DAFF9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FootballBettingProject", "FootballBettingProject", "{1BE71E75-9C6C-402B-B8B7-7EEF6A0DAFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballProjectData", "FootballProjectData\FootballProjectData.csproj", "{78B686FC-F546-4911-985D-2EDE469A6E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.Models", "FootballBetting.Models\FootballBetting.Models.csproj", "{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankAccountSystem", "BankAccountSystem", "{CB133AEE-CA4F-4386-831B-97A4C1BDEAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Client", "BankAccountSystem.Client\BankAccountSystem.Client.csproj", "{D195B8D2-832F-4241-82F2-A194DDEEAC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Data", "BankAccountSystem.Data\BankAccountSystem.Data.csproj", "{437B6A3A-27A3-4CF3-A4D5-556ACC946489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem.Models", "BankAccountSystem.Models\BankAccountSystem.Models.csproj", "{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +43,26 @@ Global
 		{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B686FC-F546-4911-985D-2EDE469A6E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B686FC-F546-4911-985D-2EDE469A6E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B686FC-F546-4911-985D-2EDE469A6E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B686FC-F546-4911-985D-2EDE469A6E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D195B8D2-832F-4241-82F2-A194DDEEAC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D195B8D2-832F-4241-82F2-A194DDEEAC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D195B8D2-832F-4241-82F2-A194DDEEAC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D195B8D2-832F-4241-82F2-A194DDEEAC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437B6A3A-27A3-4CF3-A4D5-556ACC946489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B6A3A-27A3-4CF3-A4D5-556ACC946489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B6A3A-27A3-4CF3-A4D5-556ACC946489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B6A3A-27A3-4CF3-A4D5-556ACC946489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +71,11 @@ Global
 		{ED78910C-607B-498B-9B5F-8A6A05054D4E} = {551C9FF1-AA96-43E7-A438-017F63FA8110}
 		{D6274894-B057-4F63-96DF-3D2A22DD2F8A} = {551C9FF1-AA96-43E7-A438-017F63FA8110}
 		{54B63C95-DA1A-49D1-8B34-56E6C0CA20C8} = {551C9FF1-AA96-43E7-A438-017F63FA8110}
+		{78B686FC-F546-4911-985D-2EDE469A6E06} = {1BE71E75-9C6C-402B-B8B7-7EEF6A0DAFF9}
+		{A7E9ADA1-97DD-4058-8BD2-7E4AE83ACF5D} = {1BE71E75-9C6C-402B-B8B7-7EEF6A0DAFF9}
+		{D195B8D2-832F-4241-82F2-A194DDEEAC76} = {CB133AEE-CA4F-4386-831B-97A4C1BDEAB4}
+		{437B6A3A-27A3-4CF3-A4D5-556ACC946489} = {CB133AEE-CA4F-4386-831B-97A4C1BDEAB4}
+		{9E632DC6-B3C9-4418-A7CE-0B451ECD3A13} = {CB133AEE-CA4F-4386-831B-97A4C1BDEAB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67490457-2D13-4921-826D-AB555A939A9D}
